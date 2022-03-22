@@ -8,5 +8,6 @@ import androidx.room.OnConflictStrategy
 class ShoppingDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun upsert(item:ShoppingItem)
+    fun upsert(item:ShoppingItem) {
+    }
 }
